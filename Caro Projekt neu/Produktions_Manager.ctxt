@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Produktions_Manager
+comment0.text=\n\ Die\ Klasse\ Produktions_Manager\ verwaltet\ die\ Produktion\ in\ der\ Fabrik.\n\ Sie\ koordiniert\ die\ Bearbeitung\ von\ Bestellungen\ durch\ die\ verschiedenen\ Roboter\n\ und\ sorgt\ daf\u00FCr,\ dass\ der\ Produktionsprozess\ korrekt\ abl\u00E4uft.\n\ Diese\ Klasse\ l\u00E4uft\ als\ eigener\ Thread,\ um\ Bestellungen\ kontinuierlich\ zu\ bearbeiten.\n
+comment1.params=holzRoboter\ montageRoboter\ lackierRoboter\ verpackungsRoboter
+comment1.target=Produktions_Manager(Holzbearbeitungs_Roboter,\ Montage_Roboter,\ Lackier_Roboter,\ Verpackungs_Roboter)
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Produktions_Manager.\n\ Initialisiert\ die\ Listen\ f\u00FCr\ Bestellungen\ und\ setzt\ die\ Roboter-Referenzen.\n\n\ @param\ holzRoboter\ \ \ \ \ \ \ Der\ Holzbearbeitungsroboter\n\ @param\ montageRoboter\ \ \ \ Der\ Montageroboter\n\ @param\ lackierRoboter\ \ \ \ Der\ Lackierroboter\n\ @param\ verpackungsRoboter\ Der\ Verpackungsroboter\n
+comment2.params=bestellung
+comment2.target=void\ fuegeZuVerarbeitendeBestellungenHinzu(Bestellung)
+comment2.text=\n\ F\u00FCgt\ eine\ neue\ Bestellung\ zur\ Warteschlange\ hinzu.\n\ Diese\ Methode\ ist\ synchronisiert,\ um\ Thread-Sicherheit\ zu\ gew\u00E4hrleisten.\n\n\ @param\ bestellung\ Die\ hinzuzuf\u00FCgende\ Bestellung\n
+comment3.params=bestellung
+comment3.target=void\ starteProduktion(Bestellung)
+comment3.text=\n\ Startet\ die\ Produktion\ f\u00FCr\ eine\ bestimmte\ Bestellung.\n\ Die\ Bestellung\ wird\ durch\ eine\ festgelegte\ Produktionskette\ geleitet.\n\n\ @param\ bestellung\ Die\ Bestellung,\ die\ in\ Produktion\ geht\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\n\ Der\ Haupt-Thread\ des\ Produktionsmanagers.\n\ Er\ \u00FCberpr\u00FCft\ kontinuierlich\ die\ Warteschlange\ der\ Bestellungen\ und\ startet\ deren\ Produktion.\n
+numComments=5

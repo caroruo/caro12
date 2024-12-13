@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=StandardtuerTest
+comment0.text=\n\ Klasse\ StandardtuerTest\n\n\ @author\ Alex\ Marchese\n\ @version\ 04.12.2024\n
+comment1.params=
+comment1.target=StandardtuerTest()
+comment1.text=\n\ Konstruktor\ von\ StandardtuerTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Anweisungen\ vor\ jedem\ Testlauf\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Anweisungen\ nach\ jedem\ Testlauf\n
+comment4.params=
+comment4.target=void\ testeStandardtuerGetters()
+comment5.params=
+comment5.target=void\ testeProduktGetter()
+comment6.params=
+comment6.target=void\ testeProduktSetter()
+numComments=7

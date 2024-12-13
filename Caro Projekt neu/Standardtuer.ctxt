@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Standardtuer
+comment0.text=\n\ Klasse\ Standardtuer\ beinhaltet\ die\ spezifischen\ Informationen\ einer\n\ Standardtuer\n\n\ @author\ Alex\ Marchese\n\ @version\ 04.12.2024\n
+comment1.params=
+comment1.target=Standardtuer()
+comment1.text=\n\ Konstruktor\ ruft\ den\ Konstruktor\ der\ Superklasse\ auf\n
+comment2.params=
+comment2.target=int\ gibHolzeinheiten()
+comment2.text=\n\ Mit\ dieser\ Methode\ wird\ die\ ben\u00F6tigte\ Anzahl\ Holzeinheiten\ f\u00FCr\ die\ Produktion\n\ ausgegeben\n\ \n\ @return\ HOLZEINHEITEN\n
+comment3.params=
+comment3.target=int\ gibSchrauben()
+comment3.text=\n\ Mit\ dieser\ Methode\ wird\ die\ ben\u00F6tigte\ Anzahl\ Schrauben\ f\u00FCr\ die\ Produktion\n\ ausgegeben\n\ \n\ @return\ SCHRAUBEN\n
+comment4.params=
+comment4.target=int\ gibFarbeinheiten()
+comment4.text=\n\ Mit\ dieser\ Methode\ wird\ die\ ben\u00F6tigte\ Anzahl\ Farbeinheiten\ f\u00FCr\ die\ Produktion\n\ ausgegeben\n\ \n\ @return\ FARBEINHEITEN\n
+comment5.params=
+comment5.target=int\ gibKartoneinheiten()
+comment5.text=\n\ Mit\ dieser\ Methode\ wird\ die\ ben\u00F6tigte\ Anzahl\ Kartoneinheiten\ f\u00FCr\ die\n\ Produktion\ ausgegeben\n\ \n\ @return\ KARTONEINHEITEN\n
+comment6.params=
+comment6.target=int\ gibProduktionszeit()
+comment6.text=\n\ Mit\ dieser\ Methode\ wird\ die\ ben\u00F6tigte\ Produktionszeit\ ausgegeben\n\ \n\ @return\ PRODUKTIONSZEIT\n
+numComments=7

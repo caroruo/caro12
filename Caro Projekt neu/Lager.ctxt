@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Lager
+comment0.text=\n\ Die\ Klasse\ Lager\ verwaltet\ die\ Best\u00E4nde\ an\ Materialien,\ die\ f\u00FCr\ die\ Produktion\ ben\u00F6tigt\ werden.\n\ Sie\ interagiert\ mit\ dem\ Lieferanten,\ um\ Materialien\ nachzubestellen,\ und\ stellt\ Methoden\ zur\n\ Abfrage\ und\ Aktualisierung\ der\ Best\u00E4nde\ bereit.\n
+comment1.params=lieferant
+comment1.target=Lager(Lieferant)
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Lager.\n\ Initialisiert\ die\ Best\u00E4nde\ auf\ die\ H\u00E4lfte\ der\ maximalen\ Kapazit\u00E4t\ und\ setzt\ den\ Lieferanten.\n\n\ @param\ lieferant\ Der\ Lieferant,\ der\ f\u00FCr\ Materiallieferungen\ zust\u00E4ndig\ ist\n
+comment2.params=
+comment2.target=void\ lagerBestandAusgeben()
+comment2.text=\n\ Gibt\ den\ aktuellen\ Bestand\ aller\ Materialien\ im\ Lager\ aus.\n\ Diese\ Methode\ ist\ synchronisiert,\ um\ Thread-Sicherheit\ zu\ gew\u00E4hrleisten.\n
+comment3.params=
+comment3.target=void\ lagerAuffuellen()
+comment3.text=\n\ F\u00FCllt\ das\ Lager\ auf,\ indem\ eine\ Bestellung\ beim\ Lieferanten\ ausgel\u00F6st\ wird.\n\ Wartet,\ bis\ die\ Lieferung\ abgeschlossen\ ist,\ und\ aktualisiert\ dann\ die\ Best\u00E4nde.\n
+comment4.params=holz\ schrauben\ farbe\ karton\ glas
+comment4.target=boolean\ hatAusreichendMaterial(int,\ int,\ int,\ int,\ int)
+comment4.text=\n\ Pr\u00FCft,\ ob\ das\ Lager\ ausreichend\ Material\ f\u00FCr\ eine\ bestimmte\ Produktionsanforderung\ hat.\n\n\ @param\ holz\ \ \ \ \ \ Ben\u00F6tigte\ Holzeinheiten\n\ @param\ schrauben\ Ben\u00F6tigte\ Schrauben\n\ @param\ farbe\ \ \ \ \ Ben\u00F6tigte\ Farbeinheiten\n\ @param\ karton\ \ \ \ Ben\u00F6tigte\ Kartoneinheiten\n\ @param\ glas\ \ \ \ \ \ Ben\u00F6tigte\ Glaseinheiten\n\ @return\ true,\ wenn\ ausreichend\ Material\ vorhanden\ ist,\ false\ sonst\n
+comment5.params=holz\ schrauben\ farbe\ karton\ glas
+comment5.target=void\ verbraucheMaterial(int,\ int,\ int,\ int,\ int)
+comment5.text=\n\ Verringert\ die\ Best\u00E4nde\ im\ Lager\ entsprechend\ der\ verbrauchten\ Menge.\n\ Diese\ Methode\ ist\ synchronisiert,\ um\ Konsistenz\ in\ Multithreading-Szenarien\ sicherzustellen.\n\n\ @param\ holz\ \ \ \ \ \ Verbrauchte\ Holzeinheiten\n\ @param\ schrauben\ Verbrauchte\ Schrauben\n\ @param\ farbe\ \ \ \ \ Verbrauchte\ Farbeinheiten\n\ @param\ karton\ \ \ \ Verbrauchte\ Kartoneinheiten\n\ @param\ glas\ \ \ \ \ \ Verbrauchte\ Glaseinheiten\n
+numComments=6

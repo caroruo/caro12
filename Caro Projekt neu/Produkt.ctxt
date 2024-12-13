@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Produkt
+comment0.text=\n\ Klasse\ Produkt\ ist\ eine\ Superklasse\ f\u00FCr\ die\ Klassen\ Premiumtuer\ und\n\ Standardtuer\n\n\ @author\ Alex\ Marchese\n\ @version\ 04.12.2024\n
+comment1.params=
+comment1.target=Produkt()
+comment1.text=\n\ Konstruktor\n
+comment2.params=
+comment2.target=int\ aktuellerZustand()
+comment2.text=\n\ Aktueller\ Zustand\ des\ Produkts\ wird\ ausgegeben\n\n\ @return\ zustand\ Zustand\ des\ Produkt\ wird\ ausgegeben\n
+comment3.params=zustand
+comment3.target=void\ zustandAendern(int)
+comment3.text=\n\ Zustand\ des\ Produkts\ wird\ ge\u00E4ndert\n\n\ @param\ zustand\ \:\ neuer\ Zustand\ des\ Produkt\n
+numComments=4

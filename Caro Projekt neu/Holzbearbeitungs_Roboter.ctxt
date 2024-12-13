@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Holzbearbeitungs_Roboter
+comment1.params=
+comment1.target=Holzbearbeitungs_Roboter()
+comment2.params=produkt
+comment2.target=void\ produziereProdukt(Produkt)
+numComments=3

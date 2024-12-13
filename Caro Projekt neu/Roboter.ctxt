@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Roboter
+comment0.text=\n\ Die\ abstrakte\ Klasse\ Roboter\ repr\u00E4sentiert\ einen\ allgemeinen\ Produktionsroboter.\n\ Jeder\ Roboter\ bearbeitet\ Produkte\ gem\u00E4\u00DF\ seiner\ spezifischen\ Aufgabe\ in\ der\ Produktionskette.\n\ Roboter\ laufen\ als\ separate\ Threads,\ um\ eine\ parallele\ Verarbeitung\ zu\ erm\u00F6glichen.\n
+comment1.params=name\ produktionsZeit
+comment1.target=Roboter(java.lang.String,\ int)
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Roboter.\n\ Initialisiert\ den\ Namen,\ die\ Produktionszeit\ und\ die\ Warteschlange\ des\ Roboters.\n\n\ @param\ name\ \ \ \ \ \ \ \ \ \ \ \ Der\ Name\ des\ Roboters\n\ @param\ produktionsZeit\ Die\ Bearbeitungszeit\ f\u00FCr\ ein\ Produkt\ in\ Millisekunden\n
+comment2.params=produkt
+comment2.target=void\ fuegeProduktHinzu(Produkt)
+comment2.text=\n\ F\u00FCgt\ ein\ Produkt\ zur\ Warteschlange\ des\ Roboters\ hinzu.\n\ Diese\ Methode\ ist\ synchronisiert,\ um\ Thread-Sicherheit\ zu\ gew\u00E4hrleisten.\n\n\ @param\ produkt\ Das\ Produkt,\ das\ bearbeitet\ werden\ soll\n
+comment3.params=produkt
+comment3.target=void\ produziereProdukt(Produkt)
+comment3.text=\n\ Abstrakte\ Methode,\ die\ die\ spezifische\ Bearbeitungslogik\ eines\ Roboters\ definiert.\n\ Jede\ Unterklasse\ muss\ diese\ Methode\ implementieren,\ um\ ihre\ Aufgabe\ zu\ spezifizieren.\n\n\ @param\ produkt\ Das\ Produkt,\ das\ bearbeitet\ werden\ soll\n
+comment4.params=
+comment4.target=void\ run()
+comment4.text=\n\ Der\ Haupt-Thread\ des\ Roboters.\n\ Nimmt\ Produkte\ aus\ der\ Warteschlange,\ bearbeitet\ sie\ und\ leitet\ sie\ an\ die\ n\u00E4chste\ Produktionsstation\ weiter.\n
+numComments=5

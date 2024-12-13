@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Fabrik
+comment0.text=\n\ Die\ Klasse\ Fabrik\ verwaltet\ Bestellungen,\ das\ Lager\ und\ die\ Produktion.\n\ Sie\ stellt\ eine\ Schnittstelle\ zur\ Interaktion\ \u00FCber\ die\ Konsole\ bereit.\n
+comment1.params=
+comment1.target=Fabrik()
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Fabrik.\n\ Initialisiert\ das\ Lager,\ die\ Roboter\ und\ den\ Produktionsmanager.\n\ Startet\ alle\ Roboter\ und\ den\ Produktionsmanager\ als\ Threads.\n
+comment2.params=
+comment2.target=void\ consoleStarten()
+comment2.text=\n\ Startet\ die\ Konsoleninteraktion\ mit\ der\ Fabrik.\n\ Erm\u00F6glicht\ die\ Aufgabe\ von\ Bestellungen,\ die\ Anzeige\ des\ Lagerbestands\ und\n\ das\ Beenden\ des\ Programms.\n
+comment3.params=standard\ premium
+comment3.target=void\ bestellungAufgeben(int,\ int)
+comment3.text=\n\ Gibt\ eine\ Bestellung\ mit\ der\ angegebenen\ Anzahl\ an\ Standard-\ und\ Premiumt\u00FCren\ auf.\n\ Berechnet\ den\ Materialbedarf\ und\ pr\u00FCft\ die\ Verf\u00FCgbarkeit\ im\ Lager.\n\n\ @param\ standard\ Anzahl\ der\ Standardt\u00FCren\n\ @param\ premium\ \ Anzahl\ der\ Premiumt\u00FCren\n
+comment4.params=
+comment4.target=void\ bestellungenAusgeben()
+comment4.text=\n\ Gibt\ alle\ aufgegebenen\ Bestellungen\ aus.\n
+numComments=5
