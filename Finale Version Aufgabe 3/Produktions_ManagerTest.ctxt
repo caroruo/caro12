@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Produktions_ManagerTest
+comment0.text=\n\ Die\ Test-Klasse\ Produktions_ManagerTest.\n\n\ @author\ \ Gruppe\ 17\n\ @version\ 15.12.24\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Setup\:\ Initialisiere\ den\ Produktions_Manager,\ das\ Lager\ und\ die\ Fabrik.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Cleanup\:\ Unterbreche\ den\ Manager-Thread,\ falls\ er\ gestartet\ wurde.\n
+comment3.params=
+comment3.target=void\ testFuegeBestellungHinzu()
+comment3.text=\n\ Pr\u00FCft,\ ob\ die\ Methode\ fuegeZuVerarbeitendeBestellungenHinzu\ eine\ Bestellung\n\ korrekt\ zur\n\ zuVerarbeitendeBestellungen\ hinzuf\u00FCgt\ und\ die\ Liste\ entsprechend\ anpasst.\n
+comment4.params=
+comment4.target=void\ testIntegrationMitHolzRoboter()
+comment4.text=\n\ \u00DCberpr\u00FCft,\ ob\ der\ Produktions_Manager\ Bestellungen\ an\ den\n\ Holzbearbeitungs_Roboter\ weiterleitet\ und\ korrekt\ verarbeitet.\n
+numComments=5

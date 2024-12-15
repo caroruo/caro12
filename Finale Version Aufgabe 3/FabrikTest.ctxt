@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=FabrikTest
+comment0.text=\n\ Klasse\ FabrikTest\n\n\ @author\ Gruppe\ 17\n\ @version\ 15.12.2024\n
+comment1.params=
+comment1.target=FabrikTest()
+comment1.text=\n\ Konstruktor\ von\ FabrikTest\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\n\ Anweisungen\ vor\ jedem\ Testlauf\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\n\ Anweisungen\ nach\ jedem\ Testlauf\n
+comment4.params=
+comment4.target=void\ testeBestellung()
+comment5.params=
+comment5.target=void\ testeBestellungFalsch()
+comment6.params=
+comment6.target=void\ testeBestellungAufgeben()
+numComments=7
