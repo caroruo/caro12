@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Fabrik
+comment0.text=\n\ Klasse\ Fabrik\ beinhaltet\ die\ Methoden\ der\ Fabrik\n\n\ @author\ Alex\ Marchese\n\ @version\ 04.12.2024\n
+comment1.params=
+comment1.target=Fabrik()
+comment1.text=\n\ Konstruktor\ der\ Klasse\n\ Hier\ werden\ alle\ globale\ Variablen\ initialisiert\n
+comment2.params=standardTueren\ premiumTueren
+comment2.target=void\ bestellungAufgeben(int,\ int)
+comment2.text=\n\ Mit\ dieser\ Methode\ wird\ eine\ Bestellung\ aufgegeben\n\ \n\ @param\ standardTueren\ Anzahl\ zu\ bestellender\ Standardt\u00FCren\n\ @param\ premiumTueren\ \ Anzahl\ zu\ bestellender\ Premiumt\u00FCren\n
+comment3.params=
+comment3.target=void\ bestellungenAusgeben()
+comment3.text=\n\ Mit\ dieser\ Methode\ werden\ alle\ Bestellungen\ ausgegeben\n\ \n
+comment4.params=
+comment4.target=void\ lagerAuffuellen()
+comment4.text=\n\ Methode\ lagerAuffuellen\ sorgt\ daf\u00FCr,\ dass\ das\ Lager\ durch\ Aufruf\ der\ Methode\n\ des\ Lagers\ aufgef\u00FCllt\ wird\ und\ dass\ der\ Lagerbestand\ angegeben\ wird\n
+comment5.params=
+comment5.target=java.util.ArrayList\ gibBestellungen()
+comment5.text=\n\ Mit\ dieser\ Methode\ wird\ die\ Arrayliste\ mit\ den\ Bestellungen\ zur\u00FCckgegeben.\n\ Wird\ f\u00FCr\ die\ Unit\ Testklasse\ FabrikTest\ verwendet\n\ \n\ @return\ bestellteProdukte\ wird\ retourniert\n
+comment6.params=
+comment6.target=Lager\ gibLager()
+comment6.text=\n\ Mit\ dieser\ Methode\ wird\ die\ Instanz\ des\ Lagers\ zur\u00FCckgegeben.\n\ Wird\ f\u00FCr\ die\ Unit\ Testklasse\ FabrikTest\ verwendet\n\ \n\ @return\ bestellteProdukte\ wird\ retourniert\n
+comment7.params=
+comment7.target=int\ gibLagerAuffuellungen()
+comment7.text=\n\ Diese\ Methode\ wird\ verwendet,\ um\ anzugeben,\ wie\ oft\ das\ Lager\ aufgef\u00FCllt\n\ wurde.\n\ Wird\ f\u00FCr\ die\ Unit\ Testklasse\ FabrikTest\ verwendet\n\ \n\ @return\ lagerAuffuellungen\ wird\ retourniert\n
+numComments=8

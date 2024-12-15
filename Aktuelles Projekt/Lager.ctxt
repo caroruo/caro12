@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Lager
+comment0.text=\n\ Die\ Klasse\ Lager\ implementiert\ die\ Funktionalit\u00E4t\ eines\ Lagers,\n\ in\ dem\ die\ f\u00FCr\ die\ Produktion\ ben\u00F6tigten\ Materialien\ gelagert\ werden.\n\n\ @author\ Gruppe\ 17\n\ @version\ 08.12.2024\n
+comment1.params=
+comment1.target=Lager()
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Lager\n
+comment2.params=kundenBestellung
+comment2.target=int\ gibBeschaffungsZeit(Bestellung)
+comment2.text=\n\ Methode\ gibBeschaffungsZeit\ liefert\ die\ Beschaffungszeit\ in\ Tagen\:\n\ 0\ Tage,\ wenn\ alle\ Materialien\ vorhanden\ sind\ und\n\ 2\ Tage,\ wenn\ diese\ nachbestellt\ werden\ m\u00FCssen\n\n\ @param\ Bestellung\:\ eine\ Kundenbestellung\ mit\ allen\ bestellten\ Produkten\ im\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Array\ of\ Produkt\n\ @return\:\ Beschaffungszeit\ in\ Tagen\n
+comment3.params=
+comment3.target=void\ lagerAuffuellen()
+comment3.text=\n\ Methode\ lagerAuffuellen\ bestellt\ alle\ Materialien\ nach,\ so\ dass\n\ das\ Lager\ wieder\ voll\ ist.\n\ \n
+comment4.params=holzEinheiten\ schrauben\ farbEinheiten\ kartonEinheiten\ glasEinheiten
+comment4.target=void\ warenHinzuf\u00FCgen(int,\ int,\ int,\ int,\ int)
+comment4.text=\n\ Methode\ warenHinzuf\u00FCgen\ f\u00FCgt\ die\ Materialien\ dem\ Lager\ hinzu\n\ \n\ @param\ holzEinheiten\:\ Anzahl\ der\ Holzeinheiten\n\ @param\ schrauben\:\ Anzahl\ der\ Schrauben\n\ @param\ farbEinheiten\:\ Anzahl\ der\ Farbeinheiten\n\ @param\ kartonEinheiten\:\ Anzahl\ der\ Kartoneinheiten\n\ @param\ glasEinheiten\:\ Anzahl\ der\ Glaseinheiten\n
+comment5.params=holzEinheiten\ schrauben\ farbEinheiten\ kartonEinheiten\ glasEinheiten
+comment5.target=void\ reserviereWaren(int,\ int,\ int,\ int,\ int)
+comment5.text=\n\ Methode\ reserviereWaren\ reserviert\ die\ Materialien\ f\u00FCr\ die\ Produktion\n\ \n\ @param\ holzEinheiten\:\ Anzahl\ der\ Holzeinheiten\n\ @param\ schrauben\:\ Anzahl\ der\ Schrauben\n\ @param\ farbEinheiten\:\ Anzahl\ der\ Farbeinheiten\n\ @param\ kartonEinheiten\:\ Anzahl\ der\ Kartoneinheiten\n\ @param\ glasEinheiten\:\ Anzahl\ der\ Glaseinheiten\n
+comment6.params=
+comment6.target=void\ lagerBestandAusgeben()
+comment6.text=\n\ Methode\ gibt\ den\ Zustand\ der\ Materialien\ auf\ Lager\ an\n
+comment7.params=
+comment7.target=void\ wareLiefern()
+comment7.text=\n\ Methode\ wareLiefern\:\n\ Startet\ den\ Lieferanten-Thread\ und\ aktualisiert\ die\ Lagerbest\u00E4nde\ auf\n\ maximale\ Werte.\n
+numComments=8

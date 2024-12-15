@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Roboter
+comment0.text=\n\ Die\ Klasse\ Roboter\ verwaltet\ die\ Warteliste\ mit\ den\ aufgegebenen\ Bestellungen\ und\ ordnet\ deren\ Produktion\ an,\ sobald\ die\ Kapazit\u00E4t\n\ daf\u00FCr\ besteht.\n\ \n\ @author\ Gruppe\ 17\ \n\ @version\ 08.12.2024\n
+comment1.params=
+comment1.target=Roboter()
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Roboter\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Die\ Methode\ run\ \u00FCberpr\u00FCft\ laufend,\ ob\ neue\ Bestellungen\ eingetroffen\ sind.\ \n\ Ist\ ein\ Produkt\ in\ der\ Wartschlaufe,\ wof\u00FCr\ Produktionskapazit\u00E4ten\ bestehen,\ \n\ wird\ diese\ zur\ Produktion\ aufgegeben.\n
+comment3.params=produkt
+comment3.target=void\ fuegeProduktHinzu(Produkt)
+comment3.text=\n\ Die\ Methode\ fuegeProduktHinzu\ f\u00FCgt\ der\ Warteliste\ die\ zur\ Produktion\ aufgegebenen\ Produkte\ hinzu.\n
+comment4.params=zeit
+comment4.target=void\ setzeProduktionsZeitStandard(int)
+comment4.text=\n\ Die\ Methoden\ setzeProduktionsZeitXX\ setzt\ die\ Zeit\ der\ Produktion.\n\ wir\ benutzen\ synchronized,\ damit\ jeweils\ nur\ ein\ Thread\ die\ Methode\ verwendet.\n
+comment5.params=zeit
+comment5.target=void\ setzeProduktionsZeitPremium(int)
+comment6.params=
+comment6.target=java.lang.String\ gibNamen()
+comment6.text=\n\ Die\ Methode\ gibNamen\ retourniert\ als\ String\ den\ Produktenamen\n\ \n\ @\ Produktname\n
+comment7.params=produkt
+comment7.target=void\ produziereProdukt(Produkt)
+comment7.text=\n\ Die\ Methode\ produziereProdukt\ nutzt\ einen\ Thread,\ um\ das\ Produkt\ aus\ der\ Bestellung\ zu\ produzieren.\n
+numComments=8
