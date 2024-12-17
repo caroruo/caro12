@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=GUI_Fabrik
+comment0.text=\n\ Die\ Klasse\ "GUI_Fabrik"\ zeigt\ die\ Registerseite\ "Fabrik",\ welche\ an\ die\ Klasse\ "Webseite"\ weitergegeben\ wird\n\n\ @author\ Gruppe\ 17\n\ @version\ 16.12.2024\n
+comment1.params=fabrik
+comment1.target=GUI_Fabrik(Fabrik)
+comment2.params=
+comment2.target=void\ contentErzeugen()
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=feld
+comment4.target=int\ validierungAuftrag(javax.swing.JFormattedTextField)
+comment5.params=
+comment5.target=javax.swing.JFormattedTextField\ setzeJFormatTextField()
+numComments=6

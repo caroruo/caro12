@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AekiSoftware
+comment0.text=\n\ Diese\ Klasse\ AekiSoftware\ dient\ dazu,\ den\ kombinierten,\ fertigen\ GUI\ auszuweisen.\n\ \n\ @author\ (Aeki\ Gruppe\ 17)\ \n\ @version\ (17.12.2024)\n
+comment1.params=
+comment1.target=AekiSoftware()
+comment1.text=\nKonstruktor\ der\ Klasse\ AekiSoftware\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

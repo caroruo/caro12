@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GUI_Produkte
+comment0.text=\n\ Die\ Klasse\ "GUI_Produkte"\ zeigt\ die\ Registerseite\ "Produkte",\ welche\ an\ die\ Klasse\ "Webseite"\ weitergegeben\ wird.\n\n\ @author\ Gruppe\ 17\n\ @version\ 16.12.2024\n
+comment1.params=
+comment1.target=void\ contentErzeugen()
+numComments=2

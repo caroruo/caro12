@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Startseite
+comment0.text=\n\ Die\ Klasse\ Startseite\ bestimmt,\ was\ auf\ der\ ersten\ Seite\ zu\ sehen\ ist,\ welche\ an\ die\ Klasse\ "Webseite"\ weitergegeben\ wird.\n\n\ @author\ Gruppe\ 17\n\ @version\ 16.12.2024\n
+comment1.params=lager\ produktionsManager
+comment1.target=Startseite(Lager,\ Produktions_Manager)
+comment2.params=
+comment2.target=void\ contentErzeugen()
+numComments=3

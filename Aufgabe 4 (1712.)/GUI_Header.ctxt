@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=GUI_Header
+comment0.text=\n\ Die\ Klasse\ GUI_Header\ beinhaltet\ das\ Registerblatt,\ den\ Titel\ "Aeki",\ sowie\n\ die\ Beschreibung\ "Process\ Management\ Tool"\n\n\ @author\ (Gruppe\ 16)\ \n\ @version\ (29.12.2022)\n
+comment1.params=
+comment1.target=GUI_Header()
+comment2.params=panel
+comment2.target=void\ registerErstellen(javax.swing.JPanel)
+comment3.params=e
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=e
+comment5.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment6.params=e
+comment6.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment7.params=panel
+comment7.target=void\ firmaTitelErstellen(javax.swing.JPanel)
+comment8.params=
+comment8.target=javax.swing.JPanel\ gibPanel()
+numComments=9

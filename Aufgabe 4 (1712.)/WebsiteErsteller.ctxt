@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=WebsiteErsteller
+comment0.text=\n\ Die\ Klasse\ WebsiteErsteller\ hilft\ dabei,\ die\ einzelnen\ Parts\ (Header,\ Footer,\ Blackbox,\ etc.)\ zu\ organisieren\ und\ in\ einem\ Fenster\ auszuweisen.\n\n\ @author\ Gruppe\ 16\n\ @version\ 29.12.2022\n
+comment1.params=newBlackbox\ newHeader\ newFooter\ newFabrik
+comment1.target=WebsiteErsteller(GUI_Blackbox,\ GUI_Header,\ GUI_Footer,\ Fabrik)
+comment2.params=webseiteType
+comment2.target=void\ setzeContent(java.lang.String)
+numComments=3

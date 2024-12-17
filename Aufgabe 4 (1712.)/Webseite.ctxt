@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Webseite
+comment0.text=\n\ Die\ Klasse\ Webseite\ hilft\ im\ Hintergrund,\ den\ Content\ der\ anderen\ Klassen\ zu\ b\u00FCndeln\ und\ die\ Dialoge\ zu\ definieren.\n\n\ @author\ (Aeki\ Gruppe\ 17)\ \n\ @version\ (17.12.2024)\n
+comment1.params=
+comment1.target=Webseite()
+comment2.params=
+comment2.target=void\ contentErzeugen()
+comment3.params=
+comment3.target=javax.swing.JPanel\ gibContent()
+comment4.params=titel\ meldung
+comment4.target=javax.swing.JDialog\ dialogErstellen(java.lang.String,\ java.lang.String)
+numComments=5

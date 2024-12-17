@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Produktions_Manager
+comment0.text=\n\ Die\ Klasse\ Produktions_Manager\ arbeitet\ die\ eingegangenen\ Bestellungen\ ab,\n\ indem\ sie\ die\ Produkte\ den\ verschiedenen\ Robotern\ zuweist.\n\ \n\ Sie\ verwaltet\ zwei\ Listen\:\ zu\ verarbeitende\ Bestellungen\ und\ Bestellungen,\n\ die\ sich\ in\ der\ Produktion\ befinden.\n\ \n\ @author\ Gruppe\ 17\ \n\ @version\ 15.12.2024\n
+comment1.params=meinLager\ meineFabrik
+comment1.target=Produktions_Manager(Lager,\ Fabrik)
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Produktions_Manager.\n\ Initialisiert\ die\ Roboter,\ Fabrik,\ Lager\ und\ Bestelllisten.\n\ \n\ @param\ meinLager\ \ \ Referenz\ auf\ das\ Lager,\ um\ Materialien\ zu\ \u00FCberpr\u00FCfen.\n\ @param\ meineFabrik\ Referenz\ auf\ die\ Fabrik,\ die\ die\ Bestellungen\ verwaltet.\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Hauptmethode\ zur\ Bearbeitung\ der\ Bestellungen.\n\ \u00DCberpr\u00FCft\ kontinuierlich\ die\ Listen\ und\ startet\ die\ Produktion.\n
+comment3.params=bestellung
+comment3.target=void\ fuegeZuVerarbeitendeBestellungenHinzu(Bestellung)
+comment3.text=\n\ F\u00FCgt\ eine\ neue\ Bestellung\ zur\ Warteschlange\ hinzu.\n\ \n\ @param\ bestellung\ Die\ neue\ Bestellung,\ die\ verarbeitet\ werden\ soll.\n
+comment4.params=bestellung
+comment4.target=void\ starteProduktion(Bestellung)
+comment4.text=\n\ Startet\ die\ Produktion\ einer\ Bestellung,\ indem\ Produkte\ den\ Robotern\n\ zugewiesen\ werden.\n\ \n\ @param\ bestellung\ Die\ Bestellung,\ deren\ Produkte\ produziert\ werden\ sollen.\n
+numComments=5

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GUI_Bestellungen
+comment0.text=\n\ Die\ Klasse\ GUI_Bestellungen\ bestimmt,\ was\ auf\ der\ Registerseite\ "Bestellungen"\ zu\ sehen\ ist,\ welche\ an\ die\ Klasse\ "Webseite"\ weitergegeben\ wird\n\n\ @author\ (Aeki\ Gruppe\ 17)\ \n\ @version\ (16.12.2024)\n
+comment1.params=bestellung
+comment1.target=GUI_Bestellungen(java.lang.String[][])
+comment2.params=
+comment2.target=void\ contentErzeugen()
+comment3.params=
+comment3.target=javax.swing.JScrollPane\ tabelleErstellen()
+numComments=4

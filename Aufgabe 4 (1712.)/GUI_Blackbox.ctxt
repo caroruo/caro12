@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=GUI_Blackbox
+comment0.text=\n\ Diese\ Klasse\ GUI_Blackbox\ existiert\ nur\ aus\ designtechnischen\ Gr\u00FCnden\ und\ sorgt\ daf\u00FCr,\ dass\ \u00FCberall\ auf\ der\ linken\ Seite\ ein\ schwarzer\ Balken\ auftaucht.\n\n\ @author\ (Gruppe\ 16)\ \n\ @version\ (29.12.2022)\n
+comment1.params=
+comment1.target=GUI_Blackbox()
+comment2.params=
+comment2.target=javax.swing.JPanel\ gibPanel()
+numComments=3
