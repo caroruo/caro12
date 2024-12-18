@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=RoboterTest
+comment0.text=\n\ Die\ Test-Klasse\ RoboterTest.\n\n\ @author\ Gruppe\ 17\n\ @version\ 15.12.2024\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Setzt\ das\ Testger\u00FCst\ fuer\ den\ Test.\n\n\ Wird\ vor\ jeder\ Testfall-Methode\ aufgerufen.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Gibt\ das\ Testger\u00FCst\ wieder\ frei.\n\n\ Wird\ nach\ jeder\ Testfall-Methode\ aufgerufen.\n
+comment3.params=
+comment3.target=void\ testFuegeProduktHinzu()
+comment3.text=\n\ Testet\ die\ Methode\ fuegeProduktHinzu(),\ indem\ gepr\u00FCft\ wird,\ ob\ ein\ Produkt\n\ korrekt\n\ zur\ Warteschlange\ hinzugef\u00FCgt\ wird.\n
+comment4.params=
+comment4.target=void\ testLeereWarteschlange()
+comment4.text=\n\ Testet\ das\ Verhalten\ des\ Roboters\ bei\ leerer\ Warteschlange.\n
+comment5.params=
+comment5.target=void\ testThreadSicherheitBeimHinzufuegen()
+comment5.text=\n\ Testet\ ob\ die\ Synchronisation\ funktioniert,\ wenn\ mehrere\ Threads\ gleichzeitig\n\ Produkte\ hinzuf\u00FCgen.\n
+numComments=6

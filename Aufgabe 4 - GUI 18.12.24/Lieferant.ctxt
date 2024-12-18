@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Lieferant
+comment0.text=\n\ Diese\ Klasse\ wird\ verwendet,\ um\ die\ Lieferzeiten\ des\ Lieferanten\ und\ die\n\ Bestellung\ \u00FCber\ diesen\ zu\ simulieren.\n\n\ @author\ Group\ 17\n\ @version\ 15.12.2024\n
+comment1.params=lager
+comment1.target=Lieferant(Lager)
+comment1.text=\n\ Konstruktor\ der\ Klasse\ Lieferant\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\n\ Simuliert\ die\ Lieferung\ mit\ einer\ Verz\u00F6gerung\ von\ 48\ Sekunden\n\ (2\ Tage,\ wobei\ 1\ Stunde\ \=\ 1\ Sekunde).\n
+comment3.params=holzEinheiten\ schrauben\ farbEinheiten\ kartonEinheiten\ glasEinheiten
+comment3.target=boolean\ wareBestellen(int,\ int,\ int,\ int,\ int)
+comment3.text=\n\ Mit\ dieser\ Methode\ wird\ die\ Bestellung\ bei\ dem\ Lieferanten\ simuliert\n\ "True"\ wird\ zur\u00FCckgegeben,\ wenn\ die\ Bestellung\ erfolgreich\ abgeschlossen\ wird\n\ \n\ @param\ holzEinheiten\ \ \ Anzahl\ bestellter\ Holzeinheiten\n\ @param\ schrauben\ \ \ \ \ \ \ Anzahl\ bestellter\ Schrauben\n\ @param\ farbEinheiten\ \ \ Anzahl\ bestellter\ Farbeinheiten\n\ @param\ kartonEinheiten\ Anzahl\ bestellter\ Kartoneinheiten\n\ @param\ glasEinheiten\ \ \ Anzahl\ bestellter\ Glaseinheiten\n
+numComments=4

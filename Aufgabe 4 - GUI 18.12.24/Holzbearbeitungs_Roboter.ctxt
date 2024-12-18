@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Holzbearbeitungs_Roboter
+comment0.text=\n\ Die\ Klasse\ Holzbearbeitungs_Roboter\ simuliert\ den\ Holzbearbeitungsprozess\ f\u00FCr\ die\ Produktion.\n\ Sie\ ist\ eine\ spezialisierte\ Unterklasse\ von\ Roboter.\n\ \n\ @author\ Gruppe\ 17\ \n\ @version\ 15.12.2024\n
+comment1.params=
+comment1.target=Holzbearbeitungs_Roboter()
+comment1.text=\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Holzbearbeitungs_Roboter\n
+numComments=2
